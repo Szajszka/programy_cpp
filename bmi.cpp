@@ -8,14 +8,14 @@ using namespace std;
 float wzrost, masa, bmi;
 int main(int argc, char *argv[])
 {
-    cout << "Podaj wzrost w metrach" << endl;
+    cout << "Podaj wzrost w metrach:" << endl;
     cin >> wzrost;
         if (wzrost <= 0)
         {
             cout << "Wzrost musi byc liczba dodatnia" << endl;
             exit(1);
         }
-    cout << "Podaj wage w kilogramach" << endl;
+    cout << "Podaj wage w kilogramach:" << endl;
     cin >> masa;
         if (masa <= 0)
         {
